@@ -1,0 +1,21 @@
+{
+  "name": "slush-puppie",
+  "version": "1.0.0",
+  "description": "A simple static site generator.",
+  "main": "slushfile.js",
+  "keywords": [
+    "slushgenerator",
+    "surge"
+  ],
+  "author": "Ash",
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/juice49/slush-puppie.git"
+  },
+  "devDependencies": {
+    "node-notifier": "^4.2.3",
+    "slug": "^0.9.1",
+    "titlecase": "^1.0.2"
+  }
+}

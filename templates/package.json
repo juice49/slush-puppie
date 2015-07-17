@@ -1,0 +1,25 @@
+{
+  "name": "<%= subdomain %>",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "http://<%= subdomain %>.surge.sh",
+  "scripts": {
+    "deploy": "gulp package && surge ./public --domain $npm_package_homepage"
+  },
+  "devDependencies": {
+    "bluebird": "^2.9.34",
+    "browser-sync": "^2.7.13",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-csso": "^1.0.0",
+    "gulp-liquify": "0.0.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.3",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.2.4",
+    "node-notifier": "^4.2.3",
+    "require-dir": "^0.3.0",
+    "surge": "^0.14.3"
+  }
+}
