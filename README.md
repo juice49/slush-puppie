@@ -31,9 +31,12 @@ Deploy to [Surge](https://surge.sh) with one line; `npm run deploy`.
 
 ## What is there to do?
 
+- Should output not minified version
+- Liquid filter current url
 - Version assets
 - Support other templating languages (such as Jade)
 - Support other CSS preprocessors (such as Stylus)
 - Support PostCSS
 - JavaScript compilation (Browserify and Babel)
 - Add editorconfig
+- Blog things

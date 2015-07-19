@@ -1,6 +1,6 @@
 {
   "name": "slush-puppie",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A simple static site generator.",
   "main": "slushfile.js",
   "keywords": [
@@ -13,8 +13,12 @@
     "type": "git",
     "url": "https://github.com/juice49/slush-puppie.git"
   },
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^3.9.0",
+    "gulp-conflict": "^0.4.0",
+    "gulp-install": "^0.4.0",
+    "gulp-template": "^3.0.0",
+    "inquirer": "^0.9.0",
     "node-notifier": "^4.2.3",
     "slug": "^0.9.1",
     "titlecase": "^1.0.2"
